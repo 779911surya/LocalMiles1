@@ -1,0 +1,81 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LocalMiles – P2P Delivery</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; background: #fffaf3; color: #4a2e00; }
+    header { background: #f3e3c3; padding: 2rem; text-align: center; }
+    h1 { margin: 0; font-size: 2rem; }
+    p { margin: 0.5rem 0; }
+    .section { padding: 2rem; }
+    .form-section { background: #fff3e0; padding: 2rem; border-radius: 12px; margin: 1rem 0; }
+    form { display: flex; flex-direction: column; gap: 1rem; }
+    input, textarea, select, button { padding: 0.75rem; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem; }
+    button { background: #d2a679; color: white; border: none; cursor: pointer; }
+    button:hover { background: #b67e4f; }
+    .two-cols { display: flex; gap: 2rem; flex-wrap: wrap; }
+    .col { flex: 1; min-width: 300px; }
+    footer { text-align: center; padding: 1rem; font-size: 0.9rem; background: #f3e3c3; }
+    .highlight { color: #b65a00; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📦 LocalMiles</h1>
+    <p><span class="highlight">Mee travel tho pakkana delivery kooda</span></p>
+  </header>  <section class="section">
+    <h2>How It Works</h2>
+    <div class="two-cols">
+      <div class="col">
+        <h3>For Senders</h3>
+        <ul>
+          <li>Post item details</li>
+          <li>Get matched with traveller</li>
+          <li>Hand over the item</li>
+          <li>Confirm with OTP</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>For Travellers</h3>
+        <ul>
+          <li>Post travel route</li>
+          <li>See nearby delivery requests</li>
+          <li>Pick up & deliver</li>
+          <li>Get rewarded</li>
+        </ul>
+      </div>
+    </div>
+  </section>  <section class="section">
+    <h2>📤 Post a Delivery</h2>
+    <div class="form-section">
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="text" placeholder="Pickup Location" required />
+        <input type="text" placeholder="Drop Location" required />
+        <input type="date" required />
+        <input type="text" placeholder="Item Type (e.g. documents, package)" required />
+        <input type="tel" placeholder="Phone Number" required />
+        <textarea placeholder="Additional Notes"></textarea>
+        <button type="submit">Submit Request</button>
+      </form>
+    </div>
+  </section>  <section class="section">
+    <h2>🚶‍♂️ Post a Travel Plan</h2>
+    <div class="form-section">
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="text" placeholder="From Location" required />
+        <input type="text" placeholder="To Location" required />
+        <input type="date" required />
+        <input type="text" placeholder="Bag Space Available (e.g. small/medium)" required />
+        <input type="tel" placeholder="Phone Number" required />
+        <textarea placeholder="Additional Notes"></textarea>
+        <button type="submit">Submit Travel</button>
+      </form>
+    </div>
+  </section>  <footer>
+    Follow us on Instagram: <a href="https://instagram.com/localmiles">@localmiles</a> | WhatsApp: <a href="tel:+919000000000">+91 90000 00000</a>
+  </footer>
+</body>
+</html>
